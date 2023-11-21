@@ -16,5 +16,6 @@ function adultFilter(persons) {
   ];
   
   const adults = adultFilter(persons);
-  console.log(persons);
-  console.log(adults);
+  persons.forEach(i => console.log(i));
+  console.log("Gli adulti sono: ");
+  adults.forEach(i => console.log(i));
